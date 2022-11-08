@@ -1,28 +1,54 @@
-import math
+# opcao = int(input("digite a opcao:"))
 
-def calcula_delta(a,b,c):
-    return (b**2) - 4*a*c
+# if opcao==0:
+#     print("opcao correta")
+#     print("opcao selecianada 0")
 
-
-def calcula_x1(a,b,c,delta):
-    return (-1*b+math.sqrt(delta))/(2*a)
-
-
-def calcula_x2(a,b,c,delta):
-    return (-1*b-math.sqrt(delta))/(2*a)
+# else:
+#     print('opcao errada otario')
 
 
 
-a = float(input("digita a"))
-b = float (input('digite o valor b '))
-c = float(input('digite o valor c '))
+    # for i in range (10): #0 à 9
+    #     print (i)
 
-delta = calcula_delta(a,b,c)
-x1 = calcula_x1(a,b,c,delta)
-x2 = calcula_x2(a,b,c,delta)
-print(delta)
-print(x1)
-print(x2)
+continua = True
+i = 0
+while (i<10):
+    print (i)
+    i += 1
+    continua = (i<10)
+print ("fim do while") #O TAB CONTA, OU SEJA, SE DER TAB NO PRINT ALI ELE VAI CONTAR NO LOOPING
+    
+    
+
+
+
+# import math
+
+# def calcula_delta(a,b,c):
+#     return (b**2) - 4*a*c
+
+
+# def calcula_x1(a,b,c,delta):
+#     return (-1*b+math.sqrt(delta))/(2*a)
+
+
+# def calcula_x2(a,b,c,delta):
+#     return (-1*b-math.sqrt(delta))/(2*a)
+
+
+
+# a = float(input("digita a"))
+# b = float (input('digite o valor b '))
+# c = float(input('digite o valor c '))
+
+# delta = calcula_delta(a,b,c)
+# x1 = calcula_x1(a,b,c,delta)
+# x2 = calcula_x2(a,b,c,delta)
+# print(delta)
+# print(x1)
+# print(x2)
 
 
 
